@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<script src="dat.js"></script>
+<script>
+
+
+var arr = [];
+for(var i=0;i<dat.words.length;i++){
+	arr.push(dat.words[i].entry.form);
+}
+console.log(arr);
+
+
+</script>
+<body onload="document.getElementById('a').value=JSON.stringify(arr);">
+<input id="a">
